@@ -3,15 +3,15 @@
    ========================================================== */
    :root{
     /* color */
-    --navy-deep:  #0F1830;
-    --navy:       #16233F;
-    --navy-alt:   #12203C;
-    --line:       rgba(140, 193, 222, 0.22);
-    --line-strong:#8CC1DE;
-    --accent:     #FF8A4C;
-    --paper:      #F5F3EC;
-    --paper-dim:  rgba(245, 243, 236, 0.62);
-    --paper-faint:rgba(245, 243, 236, 0.32);
+    --navy-deep:  #1D322E;
+    --navy:       #24413B;
+    --navy-alt:   #1A2E2A;
+    --line:       rgba(255, 255, 255, 0.16);
+    --line-strong:rgba(255, 255, 255, 0.55);
+    --accent:     #FFFFFF;
+    --paper:      #F4F1EA;
+    --paper-dim:  rgba(244, 241, 234, 0.66);
+    --paper-faint:rgba(244, 241, 234, 0.34);
   
     /* type */
     --font-body: 'Pretendard Variable', 'Pretendard', -apple-system, sans-serif;
@@ -78,8 +78,9 @@
     align-items:center;
     justify-content:space-between;
     padding: 20px var(--pad);
-    background: rgba(15, 24, 48, 0.82);
+    background: #0c1b18;
     backdrop-filter: blur(10px);
+    opacity: .5;
     border-bottom: 1px solid var(--line);
   }
   
